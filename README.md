@@ -33,9 +33,9 @@ The EIN and NAME columns would be of no help to increase accuracy and hence can 
 ### B. Compiling, Training, and Evaluating the Model
 
 #### 1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
-a. I selected layer 1 - 100 neurons, layer 2 - 60 neurons, layer 3 - 30 neurons, layer 4 - 10 neurons.
-b. First and second layer have relu as the activation while third, fourth and output layers have sigmoid as activation layer.
-c. Selecting all the above increased the accuracy to 72.85 % 
+##### a.  I selected layer 1 - 100 neurons, layer 2 - 60 neurons, layer 3 - 30 neurons, layer 4 - 10 neurons.
+##### b.  First and second layer have relu as the activation while third, fourth and output layers have sigmoid as activation layer.
+##### c.  Selecting all the above increased the accuracy to 72.85 % 
   
 #### 2. Were you able to achieve the target model performance?
 I was not able to achieve the target model performance of 75% but was able to increase the accuracy of model from 72.39% to 72.85% 
@@ -44,8 +44,8 @@ I was not able to achieve the target model performance of 75% but was able to in
 The accuracy was achieved by dropping additional columns like 'STATUS','SPECIAL_CONSIDERATIONS',increasing the number of neurons, increasing additional third and fourth layers and chaning the activation for second layer to 'relu'.
 
 Below are the screeshots for the accuracy from initial model from deliverable 1 & 2 and accuracy for the optimized model.
-![]()
-![]()
+![](https://github.com/Akshaya-Kamble/Neural_Network_Charity_Analysis/blob/main/Reference%20Images/Deliverable%201%262%20accuracy.PNG)
+![](https://github.com/Akshaya-Kamble/Neural_Network_Charity_Analysis/blob/main/Reference%20Images/optimized.PNG)
 
 ## Summary: 
 
@@ -54,3 +54,4 @@ The model is 72.85 % accurate and therefore can predict 72.85% times accurately 
 A. Since the dataset is large the neural network model has performed better and achieved more accuracy than logistic regression model.
 
 B. The random forest classifier can also be used for the same data as it has achieved a similar accuracy with less time than the neural network model.If we compare both model's predictive accuracy, their output is very similar. Both the random forest and deep learning models were able to predict correctly if applicants will be successful if funded by Alphabet Soup.Although their predictive performance was comparable, their implementation and training times were not—the random forest classifier was able to train on the large dataset and predict values in seconds, while the deep learning model required a couple minutes to train on the tens of thousands of data points.In other words, the random forest model is able to achieve comparable predictive accuracy on large tabular data with less code and faster performance. 
+![](https://github.com/Akshaya-Kamble/Neural_Network_Charity_Analysis/blob/main/Reference%20Images/random%20forest.PNG)
